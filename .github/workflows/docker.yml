@@ -1,9 +1,9 @@
 name: Publish
 
 on:
-  [push]
-#    tags:
-#      - v*
+  push:
+   tags:
+      - v*
 
 env:
   DOCKERHUB_URL: ghcr.io/nexys-system/go-min-web-server/go-min-web-server
